@@ -19,18 +19,24 @@
 .clues{
     float: bottom;
 }
-}
 div.dicas {
-    max-width: 200px;
-    margin-left: 25%;
-    text-align: justify;
-    text-justify: inter-word;
     font-size: 22px;
-    color: aliceblue;
 }
 .title{
     margin-left: 40px;
 }
 .check{
     font-size: 30px;
+}
+    button{
+				background: #094CFA;
+				width: 100px;
+				height: 100px;
+				margin: auto;
+				border-radius: 3px;
+			}
+table, th, td {
+  border: 1px solid black;
+    width: 400px;
+
 }

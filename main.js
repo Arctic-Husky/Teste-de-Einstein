@@ -1,0 +1,1 @@
+document.querySelector("#zebra > div.container-fluid-game > div > div.container-game")

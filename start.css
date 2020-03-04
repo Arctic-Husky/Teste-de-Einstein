@@ -1,0 +1,46 @@
+button{
+            background: #d4e04f;
+            width: 150px;
+            height: 150px;
+            margin: auto;
+            border-radius: 5px;
+            margin-left:45%;
+            margin-right: 30px;
+            display:inline-block;
+            margin-bottom: 3px;
+        
+        }
+        table{
+            margin-top: 30px;
+            margin-left: 122px;
+        }
+        h1{
+            color: aliceblue;
+            font-size: 50px;
+            font-family: SuperMario256;
+        }
+        .gif{
+            margin-left: 200px
+        }
+        body{
+            background-color:#9bdde0;
+            color: rgb(0, 0, 0);
+        }
+        .column{
+            box-sizing: border-box;
+          }
+          
+          /* Create two equal columns that floats next to each other */
+          .column{
+            float: left;
+            width: 10%;
+            padding: 10px;
+            height: 300px; /* Should be removed. Only for demonstration */
+          }
+          
+          /* Clear floats after the columns */
+          .column:after {
+            content: "";
+            display: table; 
+            clear: both;
+          }

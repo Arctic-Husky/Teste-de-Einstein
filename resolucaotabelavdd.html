@@ -32,7 +32,6 @@
         <link type="text/css" href="style.css" rel="stylesheet" />
     <br>
         <p class="check"><em> Check = Verdadeiro <br> não check = falso</em></p>
-    <a href="resolucaotabelavdd.html" target="_parent"><button class="resp"><strong>RESOLUÇÃO</strong></button></a>
 </head>
 <body>
 <table border="1">
@@ -65,7 +64,7 @@
     </tr>
         <tr>
         <th>Clóvis</th>
-            <th id="t1"><input type="checkbox" id="ola" onclick="check()"/>        </th>
+            <th><input type="checkbox"/>        </th>
             <th><input type="checkbox" />    &nbsp;   </th>
             <th><input type="checkbox" />    &nbsp;   </th>
             <th><input type="checkbox" />    &nbsp;   </th>
@@ -261,20 +260,8 @@
             <th><input type="checkbox" />    &nbsp;   </th>
             <th><input type="checkbox" />    &nbsp;   </th>
     
- 
-</table>
-    <script>
-       function check(){
-        var vv = document.getElementById('ola')
 
-        if (vv.checked == true) {
-           t1.innerText = 'V'
-        }
-        else{
-            t1.innerText = 'F'
-        }
-       
-       }
-    </script>
+</table>
+
 </body>
 </html>
